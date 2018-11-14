@@ -1,0 +1,22 @@
+{
+  "name": "cognitive",
+  "version": "1.0.0",
+  "description": "Cognitive task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine Tests.js",
+    "start": "node Index.js"
+  },
+  "author": "Mohamed Assem Assaf",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.8",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.2.0"
+  }
+}
